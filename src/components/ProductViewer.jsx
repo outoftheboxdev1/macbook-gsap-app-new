@@ -27,6 +27,14 @@ const ProductViewer = () => {
                             onClick={() => setColor('#2e2c2e')}
                             className={clsx('bg-neutral-900', color === '#2e2c2e' && 'active')}
                         />
+                        <div
+                            onClick={() => setColor('#fda5d5')}
+                            className={clsx('bg-pink-300', color === '#fda5d5' && 'active')}
+                        />
+                        <div
+                            onClick={() => setColor('#51a2ff')}
+                            className={clsx('bg-blue-400', color === '#51a2ff' && 'active')}
+                        />
                     </div>
 
                     <div className="size-control">
