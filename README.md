@@ -1,16 +1,48 @@
-# React + Vite
+# 💻 The MacBook Experience | Built in React & Three.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![MacBook Experience Banner](https://i.imgur.com/kGxnY4I.jpeg) <!-- Replace with your project banner if available -->
 
-Currently, two official plugins are available:
+## 🍎 Overview
+**The MacBook Experience** is a visually stunning Apple-style website recreation built using **React** and **Three.js**.  
+It features **scroll-triggered animations**, **3D product showcases**, and **pinned storytelling sections** — delivering an interactive experience that mirrors the elegance of Apple’s own product pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Explore the live site here:  
+👉 [https://macbook.outoftheboxdev.com/](https://macbook.outoftheboxdev.com/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎥 **Three.js 3D Visuals** – Realistic MacBook 3D rendering and motion.
+- 🌀 **GSAP Scroll Animations** – Smooth scroll-triggered animations for immersive storytelling.
+- 📱 **Responsive Layout** – Optimized for all screen sizes and devices.
+- ⚛️ **Built with React & Vite** – Fast, component-based development and lightning performance.
+- 🎨 **TailwindCSS Styling** – Minimalist Apple-inspired design with a clean UI.
+- 📖 **Pinned Sections** – Sticky scroll behavior to showcase features seamlessly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🏗️ Tech Stack
+
+| Technology | Description |
+|-------------|-------------|
+| **React** | Core front-end framework |
+| **Three.js** | 3D graphics and model rendering |
+| **GSAP** | Scroll-based and interactive animations |
+| **TailwindCSS** | Utility-first styling |
+| **Vite** | Build tool for lightning-fast dev and bundling |
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/outoftheboxdev1/macbook-gsap-app-new.git
+cd macbook-experience
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Start the development server
+npm run dev
